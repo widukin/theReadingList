@@ -21,7 +21,7 @@ An object-oriented book-list!
   - Read date, can be blank, otherwise needs to be a [JS Date() object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - Every Booklist should have a few methods:
   - .add(book)
-    -should add a book to the books list.
+    - should add a book to the books list.
   - .finishCurrentBook()
     - should mark the book that is currently being read as "read"
     - Give it a read date of new Date(Date.now())
